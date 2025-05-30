@@ -1,3 +1,5 @@
+MIT License
+Copyright (c) 2025 Aly Mostafa
 import streamlit as st
 import pandas as pd
 from sklearn.datasets import load_iris
