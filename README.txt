@@ -88,3 +88,7 @@ PSO was selected for its global optimization ability and simplicity. Even though
 ##  Author
 
 Ali Mostafa – AI Engineer, New Ismailia National University
+
+MIT License
+Copyright (c) 2025 Aly Mostafa
+
