@@ -1,11 +1,11 @@
 
-# 🌸 Iris Flower Classification with PSO-Optimized Random Forest
+🌸 Iris Flower Classification with PSO-Optimized Random Forest
 
 This project aims to classify Iris flower species using a **Random Forest Classifier**, and improve the model’s performance using **Particle Swarm Optimization (PSO)** for hyperparameter tuning.
 
 ---
 
-##  Project Structure
+Project Structure
 
 - **app.py**  
   A **Streamlit** web interface where users can input flower measurements (sepal and petal lengths and widths) and get real-time species predictions.
@@ -26,21 +26,21 @@ This project aims to classify Iris flower species using a **Random Forest Classi
 
 ###  Before Optimization (Default Random Forest)
 
-Accuracy: 0.9666666666666667
+Accuracy: 0.7333333333333333333
 Confusion Matrix:
  [[10  0  0]
  [ 0  8  1]
- [ 0  0 11]]
+ [ 0  7  4]]
 Classification Report:
                precision    recall  f1-score   support
 
            0       1.00      1.00      1.00        10
-           1       1.00      0.89      0.94         9
-           2       0.92      1.00      0.96        11
+           1       0.53      0.89      0.67         9
+           2       0.80      0.36      0.50        11
 
-    accuracy                           0.97        30
-   macro avg       0.97      0.96      0.97        30
-weighted avg       0.97      0.97      0.97        30
+    accuracy                           0.73        30
+   macro avg       0.78      0.75      0.72        30
+weighted avg       0.79      0.73      0.72        30
 
 ###  After PSO Optimization (Tuned Random Forest)
 
